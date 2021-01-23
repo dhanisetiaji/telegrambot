@@ -1,0 +1,21 @@
+{
+  "name": "amikomchat",
+  "version": "1.0.0",
+  "description": "chatbot dengan algoritma boyer-moore untuk penjurusan di amikom YK",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "mysql": "^2.18.1",
+    "string-searching": "^0.1.4",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
