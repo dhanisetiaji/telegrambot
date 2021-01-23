@@ -6,7 +6,7 @@ const ss = require("string-searching");
 // var db = require("./db_config")
 
 
-const bot = new Telegraf('1438905551:AAG-WJCdCHNRXEL1MtHE9CGEnJlJfTLDAYo')
+const bot = new Telegraf('YOUR API KEY')
 bot.start((ctx) => {
     ctx.reply("Selamat datang di chatbot penjurusan Amikom Yogyakarta. klik /help untuk bantuan menggunakan bot ini")
     console.log(`[]${chalk.red(ctx.message.from.username)} bergabung`)
